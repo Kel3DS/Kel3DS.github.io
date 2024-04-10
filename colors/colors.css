@@ -1,0 +1,33 @@
+footer {
+    background-color: #0f2544; 
+    color: #fff; 
+}
+
+.navbar, #first-screen{
+    background-color: #0f2544; 
+}
+
+
+
+.container h2, h3 { 
+    color: #0f2544;
+}
+
+.btn-primary{
+    background-color: transparent; 
+    color: white; 
+    border: 4px solid white;
+}
+
+.btn-primary:hover{
+    background-color: #0f2544;
+    border: 4px solid #0f2544;
+    color:white;
+    
+}
+
+#features, .feature-items{
+    background-color: #edf2f2;
+    border-radius: 1em;
+}
+

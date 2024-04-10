@@ -1,0 +1,249 @@
+
+#first-screen {
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+  margin-top: 0;
+}
+
+#first-screen img {
+  width: 130%;
+  height: 130%;
+  height: auto;
+  object-position: center;
+  margin-top: 0;
+  
+}
+
+.image-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.uppercase {
+  margin: 0% 0% 3% 0%;
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.lowercase{
+  font-size: 1.75em;
+}
+
+.btn-primary {
+  padding: 2% 3%;
+  margin-top: 6%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  #first-screen img {
+  width: 300%; 
+  height: 300%;
+  object-fit: cover;
+  
+  }
+
+  .image-caption {
+      width: 90%;
+      margin: 0 auto;
+  }
+ 
+  .uppercase {
+    font-size: 2em;
+  }
+  
+  .lowercase{
+    font-size: 1.2em;
+  }
+}
+
+#features{
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.feature-items{
+  padding-bottom: 1.5%;
+}
+
+.feature-items span, #features span{
+  margin-bottom: 8%;
+  margin-top: 8%;
+}
+
+
+#app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+#imagePhone {
+  width: 43%;
+  height: auto;
+  flex: 1;
+}
+
+
+.text1 {
+    flex: 1; 
+    padding: 4%;
+}
+.app-text{
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h2 {
+  font-size: 2.5em;
+  
+}
+
+p {
+  font-size: 1.25em;
+ 
+}
+
+@media (max-width: 768px) {
+  
+  #text1 {
+      padding: 10px;
+  }
+
+  h2 {
+      font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p {
+      font-size: 1em;
+      
+  }
+
+  #app {
+    text-align:center;
+    flex-direction: column;
+  }
+
+ #imagePhone {
+   width:70%;
+}
+
+}
+
+.bold{
+  font-weight: bold;
+  
+}
+
+#contact-us {
+  
+  padding: 20px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  text-align: left; 
+}
+
+
+#contact-us p {
+  width: 80%; 
+  padding: 0; 
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 55%; 
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #0078d4;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0f2544;
+}
+
+
+@media screen and (max-width: 600px) {
+  #contact-us p,
+  form {
+    width: 100%;
+  }
+
+  #contact-us{
+    text-align: center;
+  }
+}
+
+.text-all{
+  text-align: left;
+  margin-bottom: 6%;
+  margin-top: 6%;
+}
+
+.contact-text{
+  margin-top: 2%;
+}
+
+
+#app {
+  margin-bottom: 4%;
+}
+
+
+#imagePhone{
+  margin-top: 4%;
+}
+
+#features h2{
+  margin-top: 2%;
+}
+
+.feature-items h2{
+  margin-top: 4%;
+}
+
+#contact-us{
+margin-top: 4%;
+}
